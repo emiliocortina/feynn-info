@@ -1,0 +1,135 @@
+.headerTitle {
+  font-size: 2.3em;
+  color: var(--accent-color);
+}
+
+.contentWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+.content {
+  max-width: 32rem;
+  margin-top: 1rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  font-family: "Kano", sans-serif;
+  color: #ebebeb;
+  font-size: 1.2rem;
+}
+
+.introduction {
+  max-width: 28rem;
+  text-align: center;
+}
+.introduction p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.section h3.sectionTitle {
+  margin: 0;
+  font-family: "CircularStd";
+  color: var(--accent-color);
+  text-align: left;
+}
+.section .sectionDescription {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.section .sectionDescription p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.section .sectionDescription p a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+.section .sectionDescription img {
+  width: 60%;
+  align-self: center;
+}
+.section .contactIcons {
+  width: 100%;
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.section .contactIcons a img {
+  height: 2.6rem;
+  margin: 0 1rem;
+}
+.section .contactIcons a img:hover {
+  opacity: 0.7;
+}
+
+.members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+.members .member {
+  margin: 1.6rem 2.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-items: flex-start;
+  justify-content: flex-start;
+}
+.members .member h4 {
+  margin-bottom: 1rem;
+  font-family: "CircularStd";
+  color: var(--accent-color);
+  text-align: center;
+}
+.members .member .memberImage {
+  max-height: 7rem;
+}
+.members .member p {
+  max-width: 10rem;
+  text-align: center;
+}
+.members .member .memberContact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+.members .member .memberContact .memberContactImage {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 0.5rem;
+}
+.members .member .memberContact .memberContactImage:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=about.css.map */
